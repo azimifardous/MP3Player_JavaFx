@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="189.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mp3player_javafx.App">
+<AnchorPane prefHeight="189.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mp3player_javafx.Controller">
    <children>
       <Label fx:id="songLabel" alignment="CENTER" prefHeight="114.0" prefWidth="600.0" text="MP3 Player">
          <font>
@@ -42,6 +42,6 @@
          </font>
       </Button>
       <ComboBox fx:id="speedBox" layoutX="348.0" layoutY="147.0" onAction="#changeSpeed" prefHeight="39.0" prefWidth="90.0" promptText="Speed" />
-      <Slider fx:id="volumeSlider" layoutX="438.0" layoutY="159.0" max="200.0" prefHeight="16.0" prefWidth="161.0" value="100.0" />
+      <Slider fx:id="volumeSlider" layoutX="438.0" layoutY="159.0" max="100.0" prefHeight="16.0" prefWidth="161.0" value="50.0" />
    </children>
 </AnchorPane>
