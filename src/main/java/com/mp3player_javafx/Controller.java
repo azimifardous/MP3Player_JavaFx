@@ -5,7 +5,10 @@ import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.*;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.Slider;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
@@ -22,11 +25,7 @@ import java.util.TimerTask;
 public class Controller implements Initializable {
 
     @FXML
-    private Pane pane;
-    @FXML
     private Label songLabel;
-    @FXML
-    private Button playBtn, pauseBtn, prevBtn, nextBtn, resetBtn;
     @FXML
     private ComboBox<String> speedBox;
     @FXML
